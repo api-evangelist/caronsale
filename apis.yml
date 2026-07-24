@@ -1,8 +1,13 @@
 aid: caronsale
 name: CarOnSale
-description: 'CarOnSale is a company surfaced as a portfolio company of creandum, insight-partners, northzone
-  and added to the API Evangelist network as a stub for enrichment. Sector: other. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'CarOnSale is an AI-supported B2B marketplace for used-car trading across Europe, operated
+  by Castle Tech GmbH. Licensed dealers, OEMs, fleet operators, and leasing companies buy and sell
+  used vehicles through digital auctions built on standardized 110-point condition assessments,
+  AI-based pricing and valuation, and integrated transport and financing services. The platform
+  connects sellers (dealer groups, OEMs, leasing and rental companies) with a European network of
+  professional buyers, handling procurement, price discovery, settlement, and logistics end to end.
+  Added to the API Evangelist network as a venture-portfolio company; no public developer API surface
+  was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/caronsale/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +17,30 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/62a3558d1a7510cfd014d40d/6a3d28ae9fde107e35042d9a_opengraph-COS-main-page.png
 tags:
 - Company
-- Other
+- Automotive
+- Marketplace
+- Used Cars
+- B2B
+- Auctions
+- Vehicle Remarketing
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.caronsale.com/
+- type: Blog
+  url: https://www.caronsale.com/blog
+- type: Support
+  url: https://www.caronsale.com/kontakt
+- type: TermsOfService
+  url: https://www.caronsale.com/terms
+- type: PrivacyPolicy
+  url: https://www.caronsale.com/privacy-policy
+- type: DomainSecurity
+  url: security/caronsale-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
